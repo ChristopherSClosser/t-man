@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+    <meta name="description" content="Interstate Sales has been selling top quality highway safety devices for over 40 years!At Interstate Sales our mission is to provide our customers with excellent products and outstanding customer service. We are a wholesale distributor, which means you save on the price." />
+    <meta name="keywords" content=" Gregory guardrail, EKT end treatment, Fleat end treatment,traffic paint,traffic signs,highway safety materials,ennis paint,graco, impact recovery, sign posts,sign hardware,stencils, corten,road signs, delineators, channelizers, tubular post, square posts, u-channel post, sign brackets, sign mounting, custom signs, trash bags, batteries, barricades, thermoplastic, flashers, caution tape, glass beads, reflective beads, flint, hotape,premark, potters, swarco, transpo, pavement markers, RPM, centermount reflectors, bituminous, hot melt adhesive, stick'n'stomp, epoxy, primer, reflective tape, sign blanks, reflective sheeting, 3m, ekt, skt, sand bags, big sandy, crash barrels, cones, reflective cones, loopers, ringtop, downing bituminous applicators, crack sealant, cold patch, pothole patch, paint">
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="{{request.static_url('interstate_sales:static/images/favicon.ico')}}" type="image/x-icon">
+
+    <link href="{{request.static_url('interstate_sales:static/styles/theme.css')}}" rel="stylesheet">
+    <title>Interstate Sales - {% block title %}{% endblock %}</title>
+    {% endblock %}
+  </head>
+  <body>
+  
+    <div id="white_space_quad"></div>
+    <div id="banner">
+      <a href="{{request.route_url('home')}}">
+        <img src="{{request.static_url('interstate_sales:static/images/50th_banner.jpg')}}" alt="Interstate Sales" width="980">
+      </a>
+    </div>
+    {% if auth %}
+      <div class="loggedin">
+        You Are Logged in as Administrator | <a href="{{request.route_url('new')}}">ADD A NEW RECORD</a> | <a href="{{request.route_url('logout')}}">LOGOUT</a>
+      </div>
+
+
+      <div id="white_space_quad"></div>
+
+    {% endif %}
+    <div id="wrap">
+      <a href="#" id="top"><b></b></a>
+
+
+      <div class="burger">
+        <img src="{{request.static_url('interstate_sales:static/images/burger.png')}}">
+
+        <div id="search">
+          <div>
+            <form class="" action="search" method="post">
+              <input id="search_box" type="text" name="search" maxlength="25" placeholder="Search">
+              <input id="search_button" type="image" name="submit" src="{{request.static_url('interstate_sales:static/images/search_icon.png')}}">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <a class="scrollup" href="#" title="Back to Top">
+        <img src="{{request.static_url('interstate_sales:static/images/arrow6.jpg')}}" alt="up icon">
+      </a>
+
+      <ul class="hidden" id="nav">
+        <li id="home"><a href="{{request.route_url('home')}}">Home</a></li>
+        <li id="guardrail"><a>Guardrail</a>
+          <ul class="subnav">
+            {% for item in gr_subcats %}
+              {% if '/guardrail' in request.path %}
+                <li><a href="#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% else %}
+                <li><a href="{{request.route_url('guardrail')}}#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li id="paint"><a>Traffic Paint</a>
+          <ul class="subnav">
+            {% for item in tr_subcats %}
+              {% if '/paint' in request.path %}
+                <li><a href="#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% else %}
+                <li><a href="{{request.route_url('paint')}}#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li id="markings"><a>Pavement Markings</a>
+          <ul class="subnav">
+            {% for item in pm_subcats %}
+              {% if '/markings' in request.path %}
+                <li><a href="#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% else %}
+                <li><a href="{{request.route_url('markings')}}#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li id="safety"><a>Construction Safety</a>
+          <ul class="subnav">
+            {% for item in cs_subcats %}
+              {% if '/safety' in request.path %}
+                <li><a href="#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% else %}
+                <li><a href="{{request.route_url('safety')}}#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li id="signs"><a>Signs</a>
+          <ul class="subnav">
+            {% for item in signs_subcats %}
+              {% if '/signs' in request.path %}
+                <li><a href="#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% else %}
+                <li><a href="{{request.route_url('signs')}}#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li id="equipment"><a>Equipment</a>
+          <ul class="subnav">
+            {% for item in equipment_subcats %}
+              {% if '/equipment' in request.path %}
+                <li><a href="#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% else %}
+                <li><a href="{{request.route_url('equipment')}}#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li id="team"><a>Our Team</a>
+          <ul class="subnav">
+            {% for item in team_subcats %}
+              {% if '/team' in request.path %}
+                <li><a href="#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% else %}
+                <li><a href="{{request.route_url('team')}}#{{ item.replace(' ', '').lower() }}">{{ item }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+
+        <li id="contact"><a href="{{request.route_url('contact')}}">Contact Us</a></li>
+      </ul>
+
+
+
+      {% block content %}
+      {% endblock content %}
+
+      <div id="footer">
+        <a href="{{request.route_url('home')}}">
+          <p><center><b>www.interstatesales.com</center></p>
+        </a>
+      </div>
+    </div>
+
+  </body>
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="{{request.static_url('interstate_sales:static/scripts/app.js')}}"></script>
+</html>
