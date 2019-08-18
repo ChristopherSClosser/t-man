@@ -1,4 +1,5 @@
 a {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -55,7 +56,7 @@ p {
 /* banner
 ------------------------------------------*/
 #banner {
-  width: 980px;
+  width: 20rem;
   margin: 0 auto;
   position: relative;
 }
