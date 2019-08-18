@@ -1,4 +1,4 @@
-#!/home/chris/Projects/interstate_sales/ENV/bin/python3
+#!/home/chris/Projects/t_man/ENV/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'interstate-sales','console_scripts','initialize_interstate_sales_db'
 __requires__ = 'interstate-sales'
 import re
