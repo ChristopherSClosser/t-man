@@ -1,6 +1,0 @@
-[console_scripts]
-initialize_interstate_sales_db = interstate_sales.scripts.initializedb:main
-
-[paste.app_factory]
-main = interstate_sales:main
-
