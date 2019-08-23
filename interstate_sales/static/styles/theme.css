@@ -264,6 +264,7 @@ ul li {
 	height:400px;
 	width:400px;
 	float:left;
+  margin-top: 2rem;
 }
 
 #gmap {
@@ -271,6 +272,7 @@ ul li {
 	margin-left:8rem;
 	height:400px;
 	float:left;
+  margin-top: 2rem;
 }
 
 label, input, textarea {
