@@ -979,10 +979,10 @@ ENTRIES = [
     },
     {
         "category": "Our Team",
-        "subcategory": "Courtney",
+        "subcategory": "Juan",
         "title": "",
-        "img": "court3.jpg",
-        "markdown": "<b>Courtney</b> is the other half of our inside sales duo. She has been in the industry for 10 years and is highly knowledgable of every product out on the market and can help guide you to the correct item you need. Courtney never ceases to amaze in finding the \"hard to find\" products that you may be interested in. Courtney can be reached <a href='mailto:courtney@interstatesales.com' target='_top'>here.</a>",
+        "img": "juan.jpg",
+        "markdown": "<b>Juan</b> has years of experience in customer sales and service, and recently moved into our office from the warehouse.  Juan is anxious to meet with you and help get you what you need in a cost efficient, timely manner.",
         "extra": ""
     },
     {
