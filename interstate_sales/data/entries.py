@@ -987,10 +987,10 @@ ENTRIES = [
     },
     {
         "category": "Our Team",
-        "subcategory": "John",
+        "subcategory": "Sue",
         "title": "",
-        "img": "john.jpg",
-        "markdown": "<b>John</b> has been with Interstate since 1986 and is our wood, steel, and Weedmat estimator. John has expert knowledge of Guardrail, Bridge Railing, and all its specifications and accessories. Give him a call. He’ll fix you up. John can be reached <a href='mailto:john@interstatesales.com' target='_top'>here.</a>",
+        "img": "sue.jpg",
+        "markdown": "<b>Sue</b> with over 40 years of experience in the traffic maintenance industry, Sue was recently coaxed out of retirement (again!) to help us at T-Man Traffic Supply.  She’s an industry icon, and has generations of customers who trust and work with her throughout the San Diego area.  If she doesn’t know or have what you’re looking for, it probably doesn’t exist.",
         "extra": ""
     },
     {
