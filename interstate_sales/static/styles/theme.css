@@ -261,16 +261,17 @@ ul li {
 ------------------------------------------------*/
 #email_form {
 	background-color:white;
-	height:400px;
 	width:400px;
 	float:left;
+  margin-top: 2rem;
 }
 
 #gmap {
 	background-color:white;
 	margin-left:8rem;
-	height:400px;
 	float:left;
+  margin-top: 2rem;
+  margin-bottom: -5rem;
 }
 
 label, input, textarea {

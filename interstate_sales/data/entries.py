@@ -966,31 +966,31 @@ ENTRIES = [
         "subcategory": "Mike",
         "title": "",
         "img": "miket.jpg",
-        "markdown": "<b>Mike</b>, Lee’s son, is still learning the ropes here at Interstate. He keeps great people around him, and let’s them do all the heavy lifting and thinking. Full time since 1990 and part time since 1979, Mike enjoys coming to the office and watching \"Team Interstate\" do their thing. If he can’t help you find what you’re looking for, he knows someone that can. Mike can be reached <a href='mailto:mike@interstatesales.com' target='_top'>here.</a>",
+        "markdown": "<b>Mike</b>, Lee’s son, is still learning the ropes here at Interstate/T-MAN. He keeps great people around him, and let’s them do all the heavy lifting and thinking. Full time since 1990 and part time since 1979, Mike enjoys coming to the office and watching \"Team T-MAN\" do their thing. If he can’t help you find what you’re looking for, he knows someone that can. Mike can be reached <a href='mailto:mike@interstatesales.com' target='_top'><u>here.</u></a>",
         "extra": ""
     },
     {
         "category": "Our Team",
-        "subcategory": "Jane",
+        "subcategory": "Melissa",
         "title": "",
-        "img": "jane.jpg",
-        "markdown": "<b>Jane</b> is part of our inside sales duo. Jane has helped the company grow and knows every aspect of this company with her 30 years of experience in this field she can help you with any questions you may have. Jane can be reached <a href='mailto:jane@interstatesales.com' target='_top'>here.</a>",
+        "img": "melissa.jpg",
+        "markdown": "<b>Melissa</b> joins T-Man Traffic as an inside sales person, and also helps keep the office paperwork moving quickly and effectively.  Her background is in over the counter auto parts, and brings a breadth of knowledge and customer service experience to help you get the right products for your job.",
         "extra": ""
     },
     {
         "category": "Our Team",
-        "subcategory": "Courtney",
+        "subcategory": "Juan",
         "title": "",
-        "img": "court3.jpg",
-        "markdown": "<b>Courtney</b> is the other half of our inside sales duo. She has been in the industry for 10 years and is highly knowledgable of every product out on the market and can help guide you to the correct item you need. Courtney never ceases to amaze in finding the \"hard to find\" products that you may be interested in. Courtney can be reached <a href='mailto:courtney@interstatesales.com' target='_top'>here.</a>",
+        "img": "juan.jpg",
+        "markdown": "<b>Juan</b> has years of experience in customer sales and service, and recently moved into our office from the warehouse.  Juan is anxious to meet with you and help get you what you need in a cost efficient, timely manner.",
         "extra": ""
     },
     {
         "category": "Our Team",
-        "subcategory": "John",
+        "subcategory": "Sue",
         "title": "",
-        "img": "john.jpg",
-        "markdown": "<b>John</b> has been with Interstate since 1986 and is our wood, steel, and Weedmat estimator. John has expert knowledge of Guardrail, Bridge Railing, and all its specifications and accessories. Give him a call. He’ll fix you up. John can be reached <a href='mailto:john@interstatesales.com' target='_top'>here.</a>",
+        "img": "sue.jpg",
+        "markdown": "<b>Sue</b> with over 40 years of experience in the traffic maintenance industry, Sue was recently coaxed out of retirement (again!) to help us at T-Man Traffic Supply.  She’s an industry icon, and has generations of customers who trust and work with her throughout the San Diego area.  If she doesn’t know or have what you’re looking for, it probably doesn’t exist.",
         "extra": ""
     },
     {
@@ -1003,50 +1003,10 @@ ENTRIES = [
     },
     {
         "category": "Our Team",
-        "subcategory": "Kimmy",
+        "subcategory": "Gabe",
         "title": "",
-        "img": "kimmy.jpg",
-        "markdown": "<b>Kimmy</b> is our newest edition. She is the cheerful voice on the the other end of the phone when you call our office. Kimmy is quick on her feet and is sharp as a tack, if there is anything she can help you with when you call don't hesistate to ask. Kimmy can be reached <a href='mailto:kim@interstatesales.com' target='_top'>here.</a>",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Ed",
-        "title": "",
-        "img": "ed.jpg",
-        "markdown": "<b>Ed</b> is \"The Keeper Of All Things Inventory\". He keeps our warehouse precise and organized, polished down to the last washer. Without Ed, the effectiveness of our team would fall apart. He really is our duct tape that keeps us together. Next time you see him feel free to give him grief about his beloved SF Giants.",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Thomas",
-        "title": "",
-        "img": "thomas2.jpg",
-        "markdown": "<b>Thomas</b> accounts for half of our delivery team. Thomas seamlessly came aboard and has picked up all the slack within our shipping department like he had been there for ages.",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Kevin",
-        "title": "",
-        "img": "kevin.jpg",
-        "markdown": "<b>Kevin</b> makes up the other half of our delivery team. Logging countless hours on the road to get your shipments to you on time.",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Valerie",
-        "title": "",
-        "img": "valerie.jpg",
-        "markdown": "<b>Valerie</b> is the newest addition of the Interstate Sales Team. She has been an outside Sales Rep in the traffic industry for 15 years. Some may remember her, as she had worked for Interstate Sales from 1996 to 2005. This is a happy return for the company. Valerie can be reached <a href='mailto:val@interstatesales.com' target='_top'>here.</a>",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Lou",
-        "title": "",
-        "img": "lou.jpg",
-        "markdown": "<b>Lou</b> is a welcomed addition to the Interstate family. Lou has been in the traffic industry since 1976, having worked with some of the most well known companies in California and Nevada. He is our in house go to person for knowledge on Graco products, having sold them since 1990. Lou can be reached <a href='mailto:lou@interstatesales.com' target='_top'>here.</a>",
+        "img": "gabe.jpg",
+        "markdown": "<b>Gabe</b> is our logistics specialist, taking care of your order’s gathering, packing, and shipping needs.  Experienced and organized, Gabe will see that your order gets there on time, and as required.</a>",
         "extra": ""
     },
     {
@@ -1054,15 +1014,7 @@ ENTRIES = [
         "subcategory": "Toll Free Phone Number",
         "title": "Toll Free Phone Number",
         "img": "",
-        "markdown": "(800)237-7245",
-        "extra": ""
-    },
-    {
-        "category": "Contact",
-        "subcategory": "Local Phone Number",
-        "title": "Local Phone Number",
-        "img": "",
-        "markdown": "(530)823-6070",
+        "markdown": "(858) 576-1412",
         "extra": ""
     },
     {
@@ -1070,7 +1022,7 @@ ENTRIES = [
         "subcategory": "Fax Number",
         "title": "Fax Number",
         "img": "",
-        "markdown": "(530)823-0994",
+        "markdown": "(858) 576-1416",
         "extra": ""
     },
 
