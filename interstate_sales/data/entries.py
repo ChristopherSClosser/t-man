@@ -966,7 +966,7 @@ ENTRIES = [
         "subcategory": "Mike",
         "title": "",
         "img": "miket.jpg",
-        "markdown": "<b>Mike</b>, Lee’s son, is still learning the ropes here at Interstate. He keeps great people around him, and let’s them do all the heavy lifting and thinking. Full time since 1990 and part time since 1979, Mike enjoys coming to the office and watching \"Team Interstate\" do their thing. If he can’t help you find what you’re looking for, he knows someone that can. Mike can be reached <a href='mailto:mike@interstatesales.com' target='_top'>here.</a>",
+        "markdown": "<b>Mike</b>, Lee’s son, is still learning the ropes here at Interstate/T-MAN. He keeps great people around him, and let’s them do all the heavy lifting and thinking. Full time since 1990 and part time since 1979, Mike enjoys coming to the office and watching \"Team T-MAN\" do their thing. If he can’t help you find what you’re looking for, he knows someone that can. Mike can be reached <a href='mailto:mike@interstatesales.com' target='_top'><u>here.</u></a>",
         "extra": ""
     },
     {
@@ -974,7 +974,7 @@ ENTRIES = [
         "subcategory": "Jane",
         "title": "",
         "img": "jane.jpg",
-        "markdown": "<b>Jane</b> is part of our inside sales duo. Jane has helped the company grow and knows every aspect of this company with her 30 years of experience in this field she can help you with any questions you may have. Jane can be reached <a href='mailto:jane@interstatesales.com' target='_top'>here.</a>",
+        "markdown": "<b>Melissa</b> joins T-Man Traffic as an inside sales person, and also helps keep the office paperwork moving quickly and effectively.  Her background is in over the counter auto parts, and brings a breadth of knowledge and customer service experience to help you get the right products for your job. Jane can be reached <a href='mailto:jane@interstatesales.com' target='_top'><u>here.</u></a>",
         "extra": ""
     },
     {
