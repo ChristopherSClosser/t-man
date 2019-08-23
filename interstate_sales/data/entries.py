@@ -1003,50 +1003,10 @@ ENTRIES = [
     },
     {
         "category": "Our Team",
-        "subcategory": "Kimmy",
+        "subcategory": "Gabe",
         "title": "",
-        "img": "kimmy.jpg",
-        "markdown": "<b>Kimmy</b> is our newest edition. She is the cheerful voice on the the other end of the phone when you call our office. Kimmy is quick on her feet and is sharp as a tack, if there is anything she can help you with when you call don't hesistate to ask. Kimmy can be reached <a href='mailto:kim@interstatesales.com' target='_top'>here.</a>",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Ed",
-        "title": "",
-        "img": "ed.jpg",
-        "markdown": "<b>Ed</b> is \"The Keeper Of All Things Inventory\". He keeps our warehouse precise and organized, polished down to the last washer. Without Ed, the effectiveness of our team would fall apart. He really is our duct tape that keeps us together. Next time you see him feel free to give him grief about his beloved SF Giants.",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Thomas",
-        "title": "",
-        "img": "thomas2.jpg",
-        "markdown": "<b>Thomas</b> accounts for half of our delivery team. Thomas seamlessly came aboard and has picked up all the slack within our shipping department like he had been there for ages.",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Kevin",
-        "title": "",
-        "img": "kevin.jpg",
-        "markdown": "<b>Kevin</b> makes up the other half of our delivery team. Logging countless hours on the road to get your shipments to you on time.",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Valerie",
-        "title": "",
-        "img": "valerie.jpg",
-        "markdown": "<b>Valerie</b> is the newest addition of the Interstate Sales Team. She has been an outside Sales Rep in the traffic industry for 15 years. Some may remember her, as she had worked for Interstate Sales from 1996 to 2005. This is a happy return for the company. Valerie can be reached <a href='mailto:val@interstatesales.com' target='_top'>here.</a>",
-        "extra": ""
-    },
-    {
-        "category": "Our Team",
-        "subcategory": "Lou",
-        "title": "",
-        "img": "lou.jpg",
-        "markdown": "<b>Lou</b> is a welcomed addition to the Interstate family. Lou has been in the traffic industry since 1976, having worked with some of the most well known companies in California and Nevada. He is our in house go to person for knowledge on Graco products, having sold them since 1990. Lou can be reached <a href='mailto:lou@interstatesales.com' target='_top'>here.</a>",
+        "img": "gabe.jpg",
+        "markdown": "<b>Gabe</b> is our logistics specialist, taking care of your order’s gathering, packing, and shipping needs.  Experienced and organized, Gabe will see that your order gets there on time, and as required.</a>",
         "extra": ""
     },
     {
@@ -1054,15 +1014,7 @@ ENTRIES = [
         "subcategory": "Toll Free Phone Number",
         "title": "Toll Free Phone Number",
         "img": "",
-        "markdown": "(800)237-7245",
-        "extra": ""
-    },
-    {
-        "category": "Contact",
-        "subcategory": "Local Phone Number",
-        "title": "Local Phone Number",
-        "img": "",
-        "markdown": "(530)823-6070",
+        "markdown": "(858) 576-1412",
         "extra": ""
     },
     {
@@ -1070,7 +1022,7 @@ ENTRIES = [
         "subcategory": "Fax Number",
         "title": "Fax Number",
         "img": "",
-        "markdown": "(530)823-0994",
+        "markdown": "(858) 576-1416",
         "extra": ""
     },
 
