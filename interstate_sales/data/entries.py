@@ -971,10 +971,10 @@ ENTRIES = [
     },
     {
         "category": "Our Team",
-        "subcategory": "Jane",
+        "subcategory": "Melissa",
         "title": "",
-        "img": "jane.jpg",
-        "markdown": "<b>Melissa</b> joins T-Man Traffic as an inside sales person, and also helps keep the office paperwork moving quickly and effectively.  Her background is in over the counter auto parts, and brings a breadth of knowledge and customer service experience to help you get the right products for your job. Jane can be reached <a href='mailto:jane@interstatesales.com' target='_top'><u>here.</u></a>",
+        "img": "melissa.jpg",
+        "markdown": "<b>Melissa</b> joins T-Man Traffic as an inside sales person, and also helps keep the office paperwork moving quickly and effectively.  Her background is in over the counter auto parts, and brings a breadth of knowledge and customer service experience to help you get the right products for your job.",
         "extra": ""
     },
     {
