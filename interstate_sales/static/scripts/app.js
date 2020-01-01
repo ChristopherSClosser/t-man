@@ -60,6 +60,11 @@ $(function(){
   $('#team').on('click', function(){
     $('#team .subnav').slideDown('fast');
   });
+
+  $('#downloads').on('click', function(){
+    $('#downloads .subnav').slideDown('fast');
+  });
+  
   // --------------------------------------
 
   $('.overlay').on('click', function(){
