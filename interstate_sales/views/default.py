@@ -25,7 +25,7 @@ def build_dict(request):
     equipment = query.filter(MyModel.category == 'Equipment').all()
     equipment_subcats = []
     team = query.filter(MyModel.category == 'Our Team').all()
-    teamorder = sorted(team, key=lambda MyModel: int(MyModel.extra))
+    # teamorder = sorted(team, key=lambda MyModel: int(MyModel.extra))
     team_subcats = []
     for item in guardrails:
         if item.subcategory not in gr_subcats:
@@ -45,7 +45,7 @@ def build_dict(request):
     for item in equipment:
         if item.subcategory not in equipment_subcats:
             equipment_subcats.append(item.subcategory)
-    for item in teamorder:
+    for item in team:
         if item.subcategory not in team_subcats:
             team_subcats.append(item.subcategory)
     return {
@@ -333,7 +333,7 @@ def team_view(request):
         pass
     query = request.dbsession.query(MyModel)
     team = query.filter(MyModel.category == 'Our Team')
-    teamorder = sorted(team, key=lambda MyModel: int(MyModel.extra))
+    # teamorder = sorted(team, key=lambda MyModel: int(MyModel.extra))
     items = build_dict(request)
     return {
         'team': teamorder,
