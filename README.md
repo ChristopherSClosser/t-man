@@ -1,7 +1,7 @@
 # TMan Traffic Supply
 ---
 ### Description
-Version: *1.1.10*
+Version: *2.0.1*
 
 New Features
 * Data Base
@@ -11,21 +11,21 @@ New Features
 ### Authors
 ---
 * Jason Portlock
-* [Chris Closser](https://github.com/ChristopherSClosser/interstate_sales)
+* [Chris Closser](https://github.com/ChristopherSClosser/t_man)
 
 ### Getting Started
 ---
 ##### *Prerequisites*
-* [python (3.6+)](https://www.python.org/downloads/)
+* [python (3.9+)](https://www.python.org/downloads/)
 * [pip](https://pip.pypa.io/en/stable/)
 * [git](https://git-scm.com/)
 
 ##### *Installation*
 First, clone the project repo from Github. Then, change directories into the cloned repository. To accomplish this, execute these commands:
 
-`$ git clone https://github.com/ChristopherSClosser/interstate_sales.git`
+`$ git clone https://github.com/ChristopherSClosser/t_man.git`
 
-`$ cd interstate_sales`
+`$ cd t_man`
 
 Now now that you have cloned your repo and changed directories into the project, create a virtual environment named "ENV", and install the project requirements into your VE.
 
@@ -53,7 +53,7 @@ The testing files for this project are:
 
 | File Name | Description |
 |:---:|:---:|
-| `./interstate_sales/tests.py` | Backend I-S Tests. |
+| `./t_man/tests.py` | Backend I-S Tests. |
 
 ### URLs
 ---
@@ -61,7 +61,7 @@ The URLS for this project can be found in the following modules:
 
 | URL module | Description |
 |:---:|:---:|
-| `./interstate_sales/routes.py` | I-S Defined Routes. |
+| `./t_man/routes.py` | I-S Defined Routes. |
 
 ### Pyramid Development Files
 ---
